@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -N Ds_alpha_p
+#PBS -l nodes=1:ppn=1
+#PBS -q fat1t
+#PBS -j oe
+
+cd $PBS_O_WORKDIR
+make run

@@ -1,0 +1,2951 @@
+# Grace project file
+#
+@version 50122
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 15 to "Helvetica-Narrow", "Helvetica-Narrow"
+@map font 16 to "Helvetica-Narrow-Bold", "Helvetica-Narrow-Bold"
+@map font 17 to "Helvetica-Narrow-BoldOblique", "Helvetica-Narrow-BoldOblique"
+@map font 18 to "Helvetica-Narrow-Oblique", "Helvetica-Narrow-Oblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 20 to "NewCenturySchlbk-Bold", "NewCenturySchlbk-Bold"
+@map font 21 to "NewCenturySchlbk-BoldItalic", "NewCenturySchlbk-BoldItalic"
+@map font 22 to "NewCenturySchlbk-Italic", "NewCenturySchlbk-Italic"
+@map font 23 to "NewCenturySchlbk-Roman", "NewCenturySchlbk-Roman"
+@map font 24 to "Palatino-Bold", "Palatino-Bold"
+@map font 25 to "Palatino-BoldItalic", "Palatino-BoldItalic"
+@map font 26 to "Palatino-Italic", "Palatino-Italic"
+@map font 27 to "Palatino-Roman", "Palatino-Roman"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 33 to "ZapfChancery-MediumItalic", "ZapfChancery-MediumItalic"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill off
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Jul 27 23:38:16 2010"
+@with string
+@    string on
+@    string loctype view
+@    string 0.6112, 0.408
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.280000
+@    string def "S31"
+@with string
+@    string on
+@    string loctype view
+@    string 0.4352, 0.2392
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.280000
+@    string def "P33"
+@with string
+@    string on
+@    string loctype view
+@    string 0.7768, 0.7096
+@    string color 1
+@    string rot 0
+@    string font 0
+@    string just 0
+@    string char size 1.280000
+@    string def "T\SNP"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 1680, 0, 2299.99, 0.8
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "z [MeV]"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.390000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 100
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.300000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "\xs\f{} [mb]"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.390000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.2
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.300000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend off
+@    legend loctype view
+@    legend 0.92, 0.83
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 0.720000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xydy
+@    s0 symbol 7
+@    s0 symbol size 0.810000
+@    s0 symbol color 8
+@    s0 symbol pattern 1
+@    s0 symbol fill color 8
+@    s0 symbol fill pattern 1
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 9
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 8
+@    s0 errorbar pattern 1
+@    s0 errorbar size 0.370000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "Editor"
+@    s0 legend  "NPB 226, 1"
+@    s1 hidden false
+@    s1 type xydy
+@    s1 symbol 1
+@    s1 symbol size 0.490000
+@    s1 symbol color 1
+@    s1 symbol pattern 1
+@    s1 symbol fill color 1
+@    s1 symbol fill pattern 1
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 0
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 1
+@    s1 errorbar pattern 1
+@    s1 errorbar size 0.370000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "Editor"
+@    s1 legend  "CERN62, 36"
+@    s2 hidden false
+@    s2 type xydy
+@    s2 symbol 2
+@    s2 symbol size 0.490000
+@    s2 symbol color 6
+@    s2 symbol pattern 1
+@    s2 symbol fill color 6
+@    s2 symbol fill pattern 1
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 0
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 2
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 6
+@    s2 errorbar pattern 1
+@    s2 errorbar size 0.370000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "Editor"
+@    s2 legend  "NPB 128, 66"
+@    s3 hidden false
+@    s3 type xydy
+@    s3 symbol 3
+@    s3 symbol size 0.490000
+@    s3 symbol color 1
+@    s3 symbol pattern 1
+@    s3 symbol fill color 1
+@    s3 symbol fill pattern 1
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 0
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 3
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 1
+@    s3 errorbar pattern 1
+@    s3 errorbar size 0.370000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "Editor"
+@    s3 legend  "PR 138B, 433"
+@    s4 hidden false
+@    s4 type xydy
+@    s4 symbol 4
+@    s4 symbol size 0.490000
+@    s4 symbol color 1
+@    s4 symbol pattern 1
+@    s4 symbol fill color 0
+@    s4 symbol fill pattern 1
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 0
+@    s4 line linestyle 1
+@    s4 line linewidth 1.0
+@    s4 line color 4
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 1
+@    s4 errorbar pattern 1
+@    s4 errorbar size 0.370000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "Editor"
+@    s4 legend  "NC 21, 693"
+@    s5 hidden false
+@    s5 type xydy
+@    s5 symbol 4
+@    s5 symbol size 0.650000
+@    s5 symbol color 6
+@    s5 symbol pattern 1
+@    s5 symbol fill color 6
+@    s5 symbol fill pattern 1
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 0
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 5
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 6
+@    s5 errorbar pattern 1
+@    s5 errorbar size 0.370000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "Editor"
+@    s5 legend  "NPB 128, 66"
+@    s6 hidden false
+@    s6 type xydy
+@    s6 symbol 6
+@    s6 symbol size 0.490000
+@    s6 symbol color 1
+@    s6 symbol pattern 1
+@    s6 symbol fill color 1
+@    s6 symbol fill pattern 1
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 0
+@    s6 line linestyle 1
+@    s6 line linewidth 1.0
+@    s6 line color 6
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 1
+@    s6 errorbar pattern 1
+@    s6 errorbar size 0.370000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "Editor"
+@    s6 legend  "PR 128, 368"
+@    s7 hidden false
+@    s7 type xydy
+@    s7 symbol 6
+@    s7 symbol size 0.490000
+@    s7 symbol color 1
+@    s7 symbol pattern 1
+@    s7 symbol fill color 0
+@    s7 symbol fill pattern 1
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 0
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 7
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 1
+@    s7 errorbar pattern 1
+@    s7 errorbar size 0.370000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "Editor"
+@    s7 legend  "NPB 81, 431"
+@    s8 hidden false
+@    s8 type xydy
+@    s8 symbol 5
+@    s8 symbol size 0.490000
+@    s8 symbol color 1
+@    s8 symbol pattern 1
+@    s8 symbol fill color 1
+@    s8 symbol fill pattern 1
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 0
+@    s8 line linestyle 1
+@    s8 line linewidth 1.0
+@    s8 line color 8
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 1
+@    s8 errorbar pattern 1
+@    s8 errorbar size 0.370000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "Editor"
+@    s8 legend  "UCRLXYZ-70"
+@    s9 hidden false
+@    s9 type xydy
+@    s9 symbol 5
+@    s9 symbol size 0.490000
+@    s9 symbol color 1
+@    s9 symbol pattern 1
+@    s9 symbol fill color 0
+@    s9 symbol fill pattern 1
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 0
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 10
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 1
+@    s9 errorbar pattern 1
+@    s9 errorbar size 0.370000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "Editor"
+@    s9 legend  "PRD 2, 1824"
+@    s10 hidden false
+@    s10 type xydy
+@    s10 symbol 7
+@    s10 symbol size 0.490000
+@    s10 symbol color 1
+@    s10 symbol pattern 1
+@    s10 symbol fill color 0
+@    s10 symbol fill pattern 1
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 0
+@    s10 line linestyle 1
+@    s10 line linewidth 1.0
+@    s10 line color 11
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 1
+@    s10 errorbar pattern 1
+@    s10 errorbar size 0.370000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "Editor"
+@    s10 legend  "BNL, YALE-64"
+@    s11 hidden false
+@    s11 type xydy
+@    s11 symbol 1
+@    s11 symbol size 0.490000
+@    s11 symbol color 1
+@    s11 symbol pattern 1
+@    s11 symbol fill color 0
+@    s11 symbol fill pattern 1
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 0
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 12
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 1
+@    s11 errorbar pattern 1
+@    s11 errorbar size 0.370000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "Editor"
+@    s11 legend  "NC 41A, 503"
+@    s12 hidden false
+@    s12 type xydy
+@    s12 symbol 2
+@    s12 symbol size 0.490000
+@    s12 symbol color 1
+@    s12 symbol pattern 1
+@    s12 symbol fill color 0
+@    s12 symbol fill pattern 1
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 0
+@    s12 line linestyle 1
+@    s12 line linewidth 1.0
+@    s12 line color 13
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 1
+@    s12 errorbar pattern 1
+@    s12 errorbar size 1.000000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "Editor"
+@    s12 legend  "PRD 2, 449"
+@    s13 hidden false
+@    s13 type xydy
+@    s13 symbol 9
+@    s13 symbol size 0.490000
+@    s13 symbol color 1
+@    s13 symbol pattern 1
+@    s13 symbol fill color 1
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 0
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 14
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 1
+@    s13 errorbar pattern 1
+@    s13 errorbar size 0.370000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "Editor"
+@    s13 legend  "PR 161, 1384"
+@    s14 hidden false
+@    s14 type xydy
+@    s14 symbol 10
+@    s14 symbol size 0.490000
+@    s14 symbol color 1
+@    s14 symbol pattern 1
+@    s14 symbol fill color 1
+@    s14 symbol fill pattern 0
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 0
+@    s14 line linestyle 1
+@    s14 line linewidth 1.0
+@    s14 line color 15
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 1
+@    s14 errorbar pattern 1
+@    s14 errorbar size 1.000000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "Editor"
+@    s14 legend  "PR 134B, 383"
+@    s15 hidden false
+@    s15 type xydy
+@    s15 symbol 8
+@    s15 symbol size 0.490000
+@    s15 symbol color 1
+@    s15 symbol pattern 1
+@    s15 symbol fill color 1
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 0
+@    s15 line linestyle 1
+@    s15 line linewidth 1.0
+@    s15 line color 1
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 1
+@    s15 errorbar pattern 1
+@    s15 errorbar size 0.370000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "Editor"
+@    s15 legend  "PR 163, 1479"
+@    s16 hidden false
+@    s16 type xydy
+@    s16 symbol 10
+@    s16 symbol size 0.490000
+@    s16 symbol color 1
+@    s16 symbol pattern 1
+@    s16 symbol fill color 1
+@    s16 symbol fill pattern 0
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 0
+@    s16 symbol skip 0
+@    s16 line type 0
+@    s16 line linestyle 1
+@    s16 line linewidth 1.0
+@    s16 line color 1
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 1
+@    s16 fill pattern 1
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 0
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 1
+@    s16 errorbar pattern 1
+@    s16 errorbar size 0.370000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "Editor"
+@    s16 legend  "PRD 7, 3177"
+@    s17 hidden false
+@    s17 type xy
+@    s17 symbol 0
+@    s17 symbol size 1.000000
+@    s17 symbol color 6
+@    s17 symbol pattern 1
+@    s17 symbol fill color 6
+@    s17 symbol fill pattern 0
+@    s17 symbol linewidth 1.0
+@    s17 symbol linestyle 1
+@    s17 symbol char 65
+@    s17 symbol char font 0
+@    s17 symbol skip 0
+@    s17 line type 1
+@    s17 line linestyle 4
+@    s17 line linewidth 1.5
+@    s17 line color 6
+@    s17 line pattern 1
+@    s17 baseline type 0
+@    s17 baseline off
+@    s17 dropline off
+@    s17 fill type 0
+@    s17 fill rule 0
+@    s17 fill color 1
+@    s17 fill pattern 1
+@    s17 avalue off
+@    s17 avalue type 2
+@    s17 avalue char size 1.000000
+@    s17 avalue font 0
+@    s17 avalue color 1
+@    s17 avalue rot 0
+@    s17 avalue format general
+@    s17 avalue prec 3
+@    s17 avalue prepend ""
+@    s17 avalue append ""
+@    s17 avalue offset 0.000000 , 0.000000
+@    s17 errorbar on
+@    s17 errorbar place both
+@    s17 errorbar color 6
+@    s17 errorbar pattern 1
+@    s17 errorbar size 1.000000
+@    s17 errorbar linewidth 1.0
+@    s17 errorbar linestyle 1
+@    s17 errorbar riser linewidth 1.0
+@    s17 errorbar riser linestyle 1
+@    s17 errorbar riser clip off
+@    s17 errorbar riser clip length 0.100000
+@    s17 comment "/home/doering/tnp.dat"
+@    s17 legend  ""
+@    s18 hidden false
+@    s18 type xy
+@    s18 symbol 0
+@    s18 symbol size 1.000000
+@    s18 symbol color 1
+@    s18 symbol pattern 1
+@    s18 symbol fill color 1
+@    s18 symbol fill pattern 0
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 1
+@    s18 symbol char 65
+@    s18 symbol char font 0
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 1
+@    s18 line linewidth 1.0
+@    s18 line color 1
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 0
+@    s18 fill rule 0
+@    s18 fill color 1
+@    s18 fill pattern 1
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 0
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 1
+@    s18 errorbar pattern 1
+@    s18 errorbar size 1.000000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "Cols 1:2"
+@    s18 legend  "P 31"
+@    s19 hidden false
+@    s19 type xy
+@    s19 symbol 0
+@    s19 symbol size 1.000000
+@    s19 symbol color 1
+@    s19 symbol pattern 1
+@    s19 symbol fill color 1
+@    s19 symbol fill pattern 0
+@    s19 symbol linewidth 1.0
+@    s19 symbol linestyle 1
+@    s19 symbol char 65
+@    s19 symbol char font 0
+@    s19 symbol skip 0
+@    s19 line type 1
+@    s19 line linestyle 1
+@    s19 line linewidth 1.0
+@    s19 line color 1
+@    s19 line pattern 1
+@    s19 baseline type 0
+@    s19 baseline off
+@    s19 dropline off
+@    s19 fill type 0
+@    s19 fill rule 0
+@    s19 fill color 1
+@    s19 fill pattern 1
+@    s19 avalue off
+@    s19 avalue type 2
+@    s19 avalue char size 1.000000
+@    s19 avalue font 0
+@    s19 avalue color 1
+@    s19 avalue rot 0
+@    s19 avalue format general
+@    s19 avalue prec 3
+@    s19 avalue prepend ""
+@    s19 avalue append ""
+@    s19 avalue offset 0.000000 , 0.000000
+@    s19 errorbar on
+@    s19 errorbar place both
+@    s19 errorbar color 1
+@    s19 errorbar pattern 1
+@    s19 errorbar size 1.000000
+@    s19 errorbar linewidth 1.0
+@    s19 errorbar linestyle 1
+@    s19 errorbar riser linewidth 1.0
+@    s19 errorbar riser linestyle 1
+@    s19 errorbar riser clip off
+@    s19 errorbar riser clip length 0.100000
+@    s19 comment "5-pt. avg. on set 18 "
+@    s19 legend  "S 31"
+@    s21 hidden false
+@    s21 type xy
+@    s21 symbol 0
+@    s21 symbol size 1.000000
+@    s21 symbol color 13
+@    s21 symbol pattern 1
+@    s21 symbol fill color 13
+@    s21 symbol fill pattern 0
+@    s21 symbol linewidth 1.0
+@    s21 symbol linestyle 1
+@    s21 symbol char 65
+@    s21 symbol char font 0
+@    s21 symbol skip 0
+@    s21 line type 1
+@    s21 line linestyle 1
+@    s21 line linewidth 1.0
+@    s21 line color 13
+@    s21 line pattern 1
+@    s21 baseline type 0
+@    s21 baseline off
+@    s21 dropline off
+@    s21 fill type 0
+@    s21 fill rule 0
+@    s21 fill color 1
+@    s21 fill pattern 1
+@    s21 avalue off
+@    s21 avalue type 2
+@    s21 avalue char size 1.000000
+@    s21 avalue font 0
+@    s21 avalue color 1
+@    s21 avalue rot 0
+@    s21 avalue format general
+@    s21 avalue prec 3
+@    s21 avalue prepend ""
+@    s21 avalue append ""
+@    s21 avalue offset 0.000000 , 0.000000
+@    s21 errorbar on
+@    s21 errorbar place both
+@    s21 errorbar color 13
+@    s21 errorbar pattern 1
+@    s21 errorbar size 1.000000
+@    s21 errorbar linewidth 1.0
+@    s21 errorbar linestyle 1
+@    s21 errorbar riser linewidth 1.0
+@    s21 errorbar riser linestyle 1
+@    s21 errorbar riser clip off
+@    s21 errorbar riser clip length 0.100000
+@    s21 comment "Cols 1:2"
+@    s21 legend  "P 33"
+@    s22 hidden false
+@    s22 type xy
+@    s22 symbol 0
+@    s22 symbol size 1.000000
+@    s22 symbol color 1
+@    s22 symbol pattern 1
+@    s22 symbol fill color 1
+@    s22 symbol fill pattern 0
+@    s22 symbol linewidth 1.0
+@    s22 symbol linestyle 1
+@    s22 symbol char 65
+@    s22 symbol char font 0
+@    s22 symbol skip 0
+@    s22 line type 1
+@    s22 line linestyle 1
+@    s22 line linewidth 1.0
+@    s22 line color 1
+@    s22 line pattern 1
+@    s22 baseline type 0
+@    s22 baseline off
+@    s22 dropline off
+@    s22 fill type 0
+@    s22 fill rule 0
+@    s22 fill color 1
+@    s22 fill pattern 1
+@    s22 avalue off
+@    s22 avalue type 2
+@    s22 avalue char size 1.000000
+@    s22 avalue font 0
+@    s22 avalue color 1
+@    s22 avalue rot 0
+@    s22 avalue format general
+@    s22 avalue prec 3
+@    s22 avalue prepend ""
+@    s22 avalue append ""
+@    s22 avalue offset 0.000000 , 0.000000
+@    s22 errorbar on
+@    s22 errorbar place both
+@    s22 errorbar color 1
+@    s22 errorbar pattern 1
+@    s22 errorbar size 1.000000
+@    s22 errorbar linewidth 1.0
+@    s22 errorbar linestyle 1
+@    s22 errorbar riser linewidth 1.0
+@    s22 errorbar riser linestyle 1
+@    s22 errorbar riser clip off
+@    s22 errorbar riser clip length 0.100000
+@    s22 comment "Cols 1:2"
+@    s22 legend  "D 33"
+@    s23 hidden false
+@    s23 type xy
+@    s23 symbol 0
+@    s23 symbol size 1.000000
+@    s23 symbol color 1
+@    s23 symbol pattern 1
+@    s23 symbol fill color 1
+@    s23 symbol fill pattern 0
+@    s23 symbol linewidth 1.0
+@    s23 symbol linestyle 1
+@    s23 symbol char 65
+@    s23 symbol char font 0
+@    s23 symbol skip 0
+@    s23 line type 1
+@    s23 line linestyle 1
+@    s23 line linewidth 1.0
+@    s23 line color 1
+@    s23 line pattern 1
+@    s23 baseline type 0
+@    s23 baseline off
+@    s23 dropline off
+@    s23 fill type 0
+@    s23 fill rule 0
+@    s23 fill color 1
+@    s23 fill pattern 1
+@    s23 avalue off
+@    s23 avalue type 2
+@    s23 avalue char size 1.000000
+@    s23 avalue font 0
+@    s23 avalue color 1
+@    s23 avalue rot 0
+@    s23 avalue format general
+@    s23 avalue prec 3
+@    s23 avalue prepend ""
+@    s23 avalue append ""
+@    s23 avalue offset 0.000000 , 0.000000
+@    s23 errorbar on
+@    s23 errorbar place both
+@    s23 errorbar color 1
+@    s23 errorbar pattern 1
+@    s23 errorbar size 1.000000
+@    s23 errorbar linewidth 1.0
+@    s23 errorbar linestyle 1
+@    s23 errorbar riser linewidth 1.0
+@    s23 errorbar riser linestyle 1
+@    s23 errorbar riser clip off
+@    s23 errorbar riser clip length 0.100000
+@    s23 comment "Cols 1:2"
+@    s23 legend  "D 35"
+@    s24 hidden false
+@    s24 type xy
+@    s24 symbol 0
+@    s24 symbol size 1.000000
+@    s24 symbol color 1
+@    s24 symbol pattern 1
+@    s24 symbol fill color 1
+@    s24 symbol fill pattern 0
+@    s24 symbol linewidth 1.0
+@    s24 symbol linestyle 1
+@    s24 symbol char 65
+@    s24 symbol char font 0
+@    s24 symbol skip 0
+@    s24 line type 1
+@    s24 line linestyle 1
+@    s24 line linewidth 1.0
+@    s24 line color 1
+@    s24 line pattern 1
+@    s24 baseline type 0
+@    s24 baseline off
+@    s24 dropline off
+@    s24 fill type 0
+@    s24 fill rule 0
+@    s24 fill color 1
+@    s24 fill pattern 1
+@    s24 avalue off
+@    s24 avalue type 2
+@    s24 avalue char size 1.000000
+@    s24 avalue font 0
+@    s24 avalue color 1
+@    s24 avalue rot 0
+@    s24 avalue format general
+@    s24 avalue prec 3
+@    s24 avalue prepend ""
+@    s24 avalue append ""
+@    s24 avalue offset 0.000000 , 0.000000
+@    s24 errorbar on
+@    s24 errorbar place both
+@    s24 errorbar color 1
+@    s24 errorbar pattern 1
+@    s24 errorbar size 1.000000
+@    s24 errorbar linewidth 1.0
+@    s24 errorbar linestyle 1
+@    s24 errorbar riser linewidth 1.0
+@    s24 errorbar riser linestyle 1
+@    s24 errorbar riser clip off
+@    s24 errorbar riser clip length 0.100000
+@    s24 comment "Cols 1:2"
+@    s24 legend  "F 35"
+@    s25 hidden false
+@    s25 type xy
+@    s25 symbol 0
+@    s25 symbol size 1.000000
+@    s25 symbol color 1
+@    s25 symbol pattern 1
+@    s25 symbol fill color 1
+@    s25 symbol fill pattern 0
+@    s25 symbol linewidth 1.0
+@    s25 symbol linestyle 1
+@    s25 symbol char 65
+@    s25 symbol char font 0
+@    s25 symbol skip 0
+@    s25 line type 1
+@    s25 line linestyle 1
+@    s25 line linewidth 1.0
+@    s25 line color 1
+@    s25 line pattern 1
+@    s25 baseline type 0
+@    s25 baseline off
+@    s25 dropline off
+@    s25 fill type 0
+@    s25 fill rule 0
+@    s25 fill color 1
+@    s25 fill pattern 1
+@    s25 avalue off
+@    s25 avalue type 2
+@    s25 avalue char size 1.000000
+@    s25 avalue font 0
+@    s25 avalue color 1
+@    s25 avalue rot 0
+@    s25 avalue format general
+@    s25 avalue prec 3
+@    s25 avalue prepend ""
+@    s25 avalue append ""
+@    s25 avalue offset 0.000000 , 0.000000
+@    s25 errorbar on
+@    s25 errorbar place both
+@    s25 errorbar color 1
+@    s25 errorbar pattern 1
+@    s25 errorbar size 1.000000
+@    s25 errorbar linewidth 1.0
+@    s25 errorbar linestyle 1
+@    s25 errorbar riser linewidth 1.0
+@    s25 errorbar riser linestyle 1
+@    s25 errorbar riser clip off
+@    s25 errorbar riser clip length 0.100000
+@    s25 comment "Cols 1:2"
+@    s25 legend  "F 37"
+@    s26 hidden false
+@    s26 type xy
+@    s26 symbol 0
+@    s26 symbol size 1.000000
+@    s26 symbol color 2
+@    s26 symbol pattern 1
+@    s26 symbol fill color 2
+@    s26 symbol fill pattern 0
+@    s26 symbol linewidth 1.0
+@    s26 symbol linestyle 1
+@    s26 symbol char 65
+@    s26 symbol char font 0
+@    s26 symbol skip 0
+@    s26 line type 1
+@    s26 line linestyle 1
+@    s26 line linewidth 3.5
+@    s26 line color 2
+@    s26 line pattern 1
+@    s26 baseline type 0
+@    s26 baseline off
+@    s26 dropline off
+@    s26 fill type 0
+@    s26 fill rule 0
+@    s26 fill color 1
+@    s26 fill pattern 1
+@    s26 avalue off
+@    s26 avalue type 2
+@    s26 avalue char size 1.000000
+@    s26 avalue font 0
+@    s26 avalue color 1
+@    s26 avalue rot 0
+@    s26 avalue format general
+@    s26 avalue prec 3
+@    s26 avalue prepend ""
+@    s26 avalue append ""
+@    s26 avalue offset 0.000000 , 0.000000
+@    s26 errorbar on
+@    s26 errorbar place both
+@    s26 errorbar color 2
+@    s26 errorbar pattern 1
+@    s26 errorbar size 1.000000
+@    s26 errorbar linewidth 1.0
+@    s26 errorbar linestyle 1
+@    s26 errorbar riser linewidth 1.0
+@    s26 errorbar riser linestyle 1
+@    s26 errorbar riser clip off
+@    s26 errorbar riser clip length 0.100000
+@    s26 comment "Cols 1:2"
+@    s26 legend  ""
+@target G0.S0
+@type xydy
+1822 0.369 0.021
+1845 0.412 0.024
+1870 0.467 0.027
+1891 0.523 0.031
+1926 0.529 0.03
+1939 0.545 0.032
+1970 0.465 0.026
+1985 0.494 0.029
+2019 0.434 0.024
+2031 0.436 0.025
+2059 0.418 0.023
+2074 0.393 0.023
+2106 0.332 0.02
+2118 0.37 0.021
+2147 0.338 0.019
+2158 0.298 0.017
+2188 0.3 0.017
+2202 0.28 0.016
+2224 0.273 0.016
+2243 0.26 0.015
+2261 0.25 0.014
+2282 0.23 0.013
+2304 0.242 0.014
+2318 0.22 0.013
+2341 0.217 0.012
+2355 0.234 0.014
+&
+@target G0.S1
+@type xydy
+1694 0.034 0.016
+1791 0.25 0.02
+&
+@target G0.S2
+@type xydy
+1729 0.146 0.02
+1757 0.248 0.035
+1789 0.24 0.035
+1909 0.662 0.095
+1934 0.692 0.1
+1954 0.604 0.085
+&
+@target G0.S3
+@type xydy
+1732 0.144 0.01
+1783 0.214 0.015
+1813 0.278 0.02
+&
+@target G0.S4
+@type xydy
+1753 0.214 0.035
+&
+@target G0.S5
+@type xydy
+1757 0.248 0.035
+1789 0.242 0.035
+1909 0.662 0.095
+1934 0.692 0.1
+1954 0.604 0.085
+&
+@target G0.S6
+@type xydy
+1764 0.205 0.014
+&
+@target G0.S7
+@type xydy
+1777 0.24 0.03
+&
+@target G0.S8
+@type xydy
+1821 0.34 0.035
+1886 0.49 0.045
+&
+@target G0.S9
+@type xydy
+1851 0.4 0.035
+1896 0.51 0.04
+1955 0.53 0.05
+1922 0.47 0.04
+2016 0.505 0.04
+2057 0.415 0.05
+2089 0.405 0.05
+&
+@target G0.S10
+@type xydy
+1877 0.44 0.06
+&
+@target G0.S11
+@type xydy
+1969 0.53 0.07
+&
+@target G0.S12
+@type xydy
+2025 0.47 0.04
+&
+@target G0.S13
+@type xydy
+2053 0.38 0.05
+2137 0.31 0.04
+2194 0.29 0.04
+&
+@target G0.S14
+@type xydy
+2471 0.105 0.01
+&
+@target G0.S15
+@type xydy
+2639 0.168 0.02
+&
+@target G0.S16
+@type xydy
+2805 0.104 0.017
+&
+@target G0.S17
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 0.014334
+1695 0.0272416
+1700 0.0344428
+1705 0.0410704
+1710 0.0468806
+1715 0.0522496
+1720 0.057399
+1725 0.0624783
+1730 0.0675977
+1735 0.0726738
+1740 0.0778297
+1745 0.0831124
+1750 0.0885623
+1755 0.0942149
+1760 0.100102
+1765 0.105921
+1770 0.111945
+1775 0.118192
+1780 0.12468
+1785 0.131429
+1790 0.138452
+1795 0.145068
+1800 0.151914
+1805 0.159001
+1810 0.166341
+1815 0.173946
+1820 0.181828
+1825 0.189472
+1830 0.197362
+1835 0.205506
+1840 0.213913
+1845 0.222592
+1850 0.23155
+1855 0.240226
+1860 0.249149
+1865 0.258324
+1870 0.26776
+1875 0.277462
+1880 0.287437
+1885 0.297
+1890 0.306798
+1895 0.316839
+1900 0.327125
+1905 0.337664
+1910 0.34846
+1915 0.358671
+1920 0.3691
+1925 0.379751
+1930 0.390628
+1935 0.401736
+1940 0.413077
+1945 0.423626
+1950 0.43437
+1955 0.44531
+1960 0.45645
+1965 0.467794
+1970 0.479344
+1975 0.489868
+1980 0.500558
+1985 0.511417
+1990 0.522447
+1995 0.53365
+2000 0.54503
+2005 0.555154
+2010 0.565416
+2015 0.575818
+2020 0.586362
+2025 0.59705
+2030 0.607886
+2035 0.617293
+2040 0.626813
+2045 0.636448
+2050 0.646201
+2055 0.656073
+2060 0.666067
+2065 0.674542
+2070 0.683113
+2075 0.691781
+2080 0.700548
+2085 0.709416
+2090 0.718388
+2095 0.725832
+2100 0.733361
+2105 0.740978
+2110 0.748684
+2115 0.756482
+2120 0.764375
+2125 0.770776
+2130 0.777262
+2135 0.783835
+2140 0.790498
+2145 0.797252
+2150 0.804102
+2155 0.80947
+2160 0.814932
+2165 0.82049
+2170 0.826147
+2175 0.831906
+2180 0.83777
+2185 0.842076
+2190 0.846496
+2195 0.851032
+2200 0.855688
+2205 0.860469
+2210 0.865378
+2215 0.868423
+2220 0.871621
+2225 0.874975
+2230 0.878492
+2235 0.882175
+2240 0.886029
+2245 0.887183
+2250 0.888582
+2255 0.890234
+2260 0.892145
+2265 0.894322
+2270 0.896774
+2275 0.893625
+2280 0.891184
+2285 0.889469
+2290 0.888497
+2295 0.888285
+2300 0.888853
+&
+@target G0.S18
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 9.18061e-06
+1695 6.01194e-05
+1700 0.000167518
+1705 0.000325831
+1710 0.000519816
+1715 0.000745648
+1720 0.00100133
+1725 0.00128605
+1730 0.00159989
+1735 0.00202451
+1740 0.00250163
+1745 0.00303206
+1750 0.00361547
+1755 0.0042502
+1760 0.00493341
+1765 0.0057204
+1770 0.00655749
+1775 0.00743904
+1780 0.00835844
+1785 0.0093081
+1790 0.0102796
+1795 0.0113085
+1800 0.0123459
+1805 0.0133814
+1810 0.0144047
+1815 0.0154059
+1820 0.0163756
+1825 0.017344
+1830 0.0182687
+1835 0.0191433
+1840 0.019963
+1845 0.0207243
+1850 0.0214251
+1855 0.0221078
+1860 0.0227315
+1865 0.023297
+1870 0.0238059
+1875 0.0242603
+1880 0.0246628
+1885 0.0250581
+1890 0.0254088
+1895 0.025718
+1900 0.0259887
+1905 0.0262241
+1910 0.026427
+1915 0.0266349
+1920 0.0268166
+1925 0.0269744
+1930 0.0271106
+1935 0.0272274
+1940 0.0273267
+1945 0.027437
+1950 0.0275337
+1955 0.0276181
+1960 0.0276918
+1965 0.0277557
+1970 0.0278111
+1975 0.0278784
+1980 0.0279394
+1985 0.0279949
+1990 0.0280457
+1995 0.0280923
+2000 0.0281353
+2005 0.0281886
+2010 0.0282397
+2015 0.0282893
+2020 0.0283375
+2025 0.0283848
+2030 0.0284314
+2035 0.0284856
+2040 0.0285403
+2045 0.0285955
+2050 0.0286517
+2055 0.0287089
+2060 0.0287672
+2065 0.0288303
+2070 0.0288953
+2075 0.0289626
+2080 0.0290321
+2085 0.029104
+2090 0.0291784
+2095 0.0292548
+2100 0.0293343
+2105 0.0294171
+2110 0.0295033
+2115 0.0295928
+2120 0.0296857
+2125 0.0297783
+2130 0.0298749
+2135 0.0299757
+2140 0.0300806
+2145 0.0301897
+2150 0.0303031
+2155 0.0304138
+2160 0.0305294
+2165 0.0306498
+2170 0.0307752
+2175 0.0309054
+2180 0.0310405
+2185 0.0311709
+2190 0.0313066
+2195 0.031448
+2200 0.0315948
+2205 0.0317472
+2210 0.0319051
+2215 0.0320561
+2220 0.0322131
+2225 0.0323763
+2230 0.0325456
+2235 0.032721
+2240 0.0329026
+2245 0.0330751
+2250 0.0332543
+2255 0.0334401
+2260 0.0336326
+2265 0.0338318
+2270 0.0340376
+2275 0.0342326
+2280 0.0344347
+2285 0.0346439
+2290 0.0348604
+2295 0.0350839
+2300 0.0353147
+&
+@target G0.S19
+@type xy
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 0.0343045
+1695 0.05358358
+1700 0.07567578
+1705 0.09415682
+1710 0.10825706
+1715 0.11833408
+1720 0.1265814
+1725 0.1328884
+1730 0.1382988
+1735 0.1439372
+1740 0.1502688
+1745 0.156977
+1750 0.1634798
+1755 0.1700896
+1760 0.1760546
+1765 0.1811154
+1770 0.185428
+1775 0.1893936
+1780 0.1921562
+1785 0.1942494
+1790 0.1961318
+1795 0.1981406
+1800 0.200479
+1805 0.2032262
+1810 0.206367
+1815 0.2098618
+1820 0.2136012
+1825 0.2174552
+1830 0.2212936
+1835 0.224999
+1840 0.2284318
+1845 0.2318726
+1850 0.235271
+1855 0.2386006
+1860 0.2418542
+1865 0.2450398
+1870 0.24781
+1875 0.2503884
+1880 0.2528086
+1885 0.2551082
+1890 0.2573256
+1895 0.2594998
+1900 0.2614656
+1905 0.2632624
+1910 0.2649194
+1915 0.2664628
+1920 0.267915
+1925 0.269296
+1930 0.2706122
+1935 0.271777
+1940 0.2728008
+1945 0.2736922
+1950 0.2744572
+1955 0.2751004
+1960 0.2757222
+1965 0.2761844
+1970 0.2764884
+1975 0.2766354
+1980 0.2766254
+1985 0.276458
+1990 0.2762706
+1995 0.2759042
+2000 0.275359
+2005 0.274635
+2010 0.2737326
+2015 0.2726514
+2020 0.2715468
+2025 0.270254
+2030 0.2687744
+2035 0.2671096
+2040 0.2652616
+2045 0.263232
+2050 0.2611832
+2055 0.2589606
+2060 0.256567
+2065 0.2540054
+2070 0.251279
+2075 0.248391
+2080 0.2454962
+2085 0.2424588
+2090 0.2392824
+2095 0.2359706
+2100 0.2325272
+2105 0.2289558
+2110 0.2253932
+2115 0.2217232
+2120 0.217949
+2125 0.2140742
+2130 0.2101022
+2135 0.2060362
+2140 0.2019934
+2145 0.1978746
+2150 0.1936822
+2155 0.189419
+2160 0.185088
+2165 0.1806916
+2170 0.1763296
+2175 0.171909
+2180 0.1674316
+2185 0.1628994
+2190 0.1583142
+2195 0.1536778
+2200 0.1490824
+2205 0.1444182
+2210 0.1396864
+2215 0.1348886
+2220 0.130026
+2225 0.1251002
+2230 0.12022
+2235 0.1151972
+2240 0.11003568
+2245 0.10473986
+2250 0.09931456
+2255 0.09376518
+2260 0.08828364
+2265 0.08216482
+2270 0.07545756
+2275 0.06821866
+2280 0.06051436
+2285 0.05242202
+2290 0.04473808
+&
+@target G0.S21
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 6.01583e-05
+1695 0.000554424
+1700 0.00131385
+1705 0.0023028
+1710 0.00346095
+1715 0.00476253
+1720 0.00618931
+1725 0.00772768
+1730 0.00936722
+1735 0.0112435
+1740 0.0132404
+1745 0.015351
+1750 0.0175684
+1755 0.0198862
+1760 0.022298
+1765 0.0249182
+1770 0.0276427
+1775 0.030463
+1780 0.0333678
+1785 0.0363418
+1790 0.0393659
+1795 0.0425722
+1800 0.0458101
+1805 0.0490509
+1810 0.0522623
+1815 0.0554094
+1820 0.0584546
+1825 0.0616151
+1830 0.0646388
+1835 0.0674855
+1840 0.0701137
+1845 0.0724816
+1850 0.0745481
+1855 0.076518
+1860 0.078131
+1865 0.0793515
+1870 0.0801503
+1875 0.0805076
+1880 0.0804145
+1885 0.0799683
+1890 0.0790733
+1895 0.0777535
+1900 0.0760464
+1905 0.0740016
+1910 0.0716788
+1915 0.0690358
+1920 0.0662104
+1925 0.0632705
+1930 0.0602827
+1935 0.0573099
+1940 0.0544093
+1945 0.0513589
+1950 0.0484408
+1955 0.0456905
+1960 0.0431361
+1965 0.0407988
+1970 0.0386932
+1975 0.0364792
+1980 0.0344957
+1985 0.0327442
+1990 0.0312229
+1995 0.0299272
+2000 0.0288507
+2005 0.027638
+2010 0.026625
+2015 0.0258023
+2020 0.0251598
+2025 0.024687
+2030 0.0243737
+2035 0.0239054
+2040 0.0235801
+2045 0.0233878
+2050 0.0233187
+2055 0.0233634
+2060 0.0235128
+2065 0.0235104
+2070 0.0236026
+2075 0.0237814
+2080 0.024039
+2085 0.0243682
+2090 0.0247621
+2095 0.0250193
+2100 0.025336
+2105 0.025706
+2110 0.0261233
+2115 0.0265826
+2120 0.0270786
+2125 0.0274582
+2130 0.0278726
+2135 0.0283172
+2140 0.0287874
+2145 0.0292792
+2150 0.0297886
+2155 0.0302029
+2160 0.030635
+2165 0.0310814
+2170 0.0315387
+2175 0.0320037
+2180 0.0324736
+2185 0.0328683
+2190 0.0332693
+2195 0.033674
+2200 0.0340797
+2205 0.0344842
+2210 0.0348852
+2215 0.0352307
+2220 0.0355751
+2225 0.0359163
+2230 0.0362526
+2235 0.036582
+2240 0.0369031
+2245 0.0371821
+2250 0.0374555
+2255 0.0377218
+2260 0.0379797
+2265 0.038228
+2270 0.0384655
+2275 0.0386686
+2280 0.038864
+2285 0.0390507
+2290 0.0392279
+2295 0.0393947
+2300 0.0395504
+&
+@target G0.S22
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 8.16253e-07
+1695 2.60766e-05
+1700 0.000102197
+1705 0.000238587
+1710 0.000440301
+1715 0.000707954
+1720 0.00103924
+1725 0.00142965
+1730 0.00187305
+1735 0.00236946
+1740 0.00290957
+1745 0.00348645
+1750 0.00409303
+1755 0.00472238
+1760 0.00536789
+1765 0.00604155
+1770 0.00672483
+1775 0.00741287
+1780 0.0081014
+1785 0.00878671
+1790 0.00946571
+1795 0.0101513
+1800 0.0108275
+1805 0.0114922
+1810 0.0121439
+1815 0.0127813
+1820 0.0134034
+1825 0.0140173
+1830 0.0146145
+1835 0.0151944
+1840 0.0157568
+1845 0.0163015
+1850 0.0168285
+1855 0.0173382
+1860 0.0178297
+1865 0.0183032
+1870 0.018759
+1875 0.0191972
+1880 0.0196183
+1885 0.0200196
+1890 0.0204039
+1895 0.0207715
+1900 0.0211228
+1905 0.0214582
+1910 0.0217779
+1915 0.0220806
+1920 0.0223683
+1925 0.0226413
+1930 0.0228997
+1935 0.0231441
+1940 0.0233746
+1945 0.0235935
+1950 0.0237994
+1955 0.0239923
+1960 0.0241725
+1965 0.0243403
+1970 0.0244958
+1975 0.0246463
+1980 0.0247852
+1985 0.0249128
+1990 0.0250292
+1995 0.0251346
+2000 0.025229
+2005 0.0253249
+2010 0.0254106
+2015 0.0254862
+2020 0.0255518
+2025 0.0256075
+2030 0.0256535
+2035 0.025707
+2040 0.0257513
+2045 0.0257866
+2050 0.0258129
+2055 0.0258303
+2060 0.0258388
+2065 0.0258604
+2070 0.0258738
+2075 0.0258789
+2080 0.025876
+2085 0.025865
+2090 0.0258461
+2095 0.0258447
+2100 0.025836
+2105 0.02582
+2110 0.0257966
+2115 0.025766
+2120 0.0257284
+2125 0.0257122
+2130 0.0256895
+2135 0.0256602
+2140 0.0256244
+2145 0.0255823
+2150 0.0255338
+2155 0.0255092
+2160 0.0254787
+2165 0.0254425
+2170 0.0254005
+2175 0.0253529
+2180 0.0252998
+2185 0.0252686
+2190 0.0252323
+2195 0.0251908
+2200 0.0251443
+2205 0.0250929
+2210 0.0250365
+2215 0.0250045
+2220 0.0249679
+2225 0.024927
+2230 0.0248817
+2235 0.0248322
+2240 0.0247785
+2245 0.0247515
+2250 0.0247207
+2255 0.0246863
+2260 0.0246483
+2265 0.0246068
+2270 0.024562
+2275 0.0245401
+2280 0.0245149
+2285 0.0244868
+2290 0.0244557
+2295 0.0244218
+2300 0.0243851
+&
+@target G0.S23
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 2.77497e-08
+1695 2.50589e-06
+1700 1.17151e-05
+1705 2.68471e-05
+1710 5.09091e-05
+1715 8.60618e-05
+1720 0.000134697
+1725 0.000199476
+1730 0.00028335
+1735 0.000370506
+1740 0.000476638
+1745 0.000604786
+1750 0.000758468
+1755 0.000941759
+1760 0.00115933
+1765 0.00137439
+1770 0.00162459
+1775 0.00191493
+1780 0.00225069
+1785 0.00263739
+1790 0.00308066
+1795 0.00351501
+1800 0.00400372
+1805 0.00455058
+1810 0.00515878
+1815 0.00583064
+1820 0.00656715
+1825 0.00726189
+1830 0.00800335
+1835 0.00878505
+1840 0.00959694
+1845 0.0104249
+1850 0.0112505
+1855 0.0119115
+1860 0.0125157
+1865 0.0130395
+1870 0.0134606
+1875 0.0137603
+1880 0.0139258
+1885 0.0138182
+1890 0.0135835
+1895 0.0132339
+1900 0.0127864
+1905 0.0122609
+1910 0.011678
+1915 0.0109686
+1920 0.0102538
+1925 0.00954721
+1930 0.0088597
+1935 0.00819895
+1940 0.00757014
+1945 0.00692617
+1950 0.00632783
+1955 0.00577391
+1960 0.0052625
+1965 0.0047913
+1970 0.00435782
+1975 0.00393079
+1980 0.00354131
+1985 0.00318606
+1990 0.00286203
+1995 0.00256649
+2000 0.00229704
+2005 0.00203409
+2010 0.00179576
+2015 0.00157982
+2020 0.00138435
+2025 0.0012077
+2030 0.00104846
+2035 0.000894021
+2040 0.00075612
+2045 0.000633516
+2050 0.00052515
+2055 0.000430135
+2060 0.000347729
+2065 0.000269775
+2070 0.000204136
+2075 0.000150152
+2080 0.000107279
+2085 7.50741e-05
+2090 5.31877e-05
+2095 3.66786e-05
+2100 3.05891e-05
+2105 3.46019e-05
+2110 4.84721e-05
+2115 7.20209e-05
+2120 0.00010513
+2125 0.000145554
+2130 0.000195957
+2135 0.000256238
+2140 0.000326343
+2145 0.000406264
+2150 0.000496039
+2155 0.000596039
+2160 0.000706606
+2165 0.000827791
+2170 0.000959683
+2175 0.00110241
+2180 0.00125613
+2185 0.0014238
+2190 0.00160347
+2195 0.00179531
+2200 0.00199954
+2205 0.00221641
+2210 0.0024462
+2215 0.0026947
+2220 0.00295744
+2225 0.00323471
+2230 0.00352686
+2235 0.00383425
+2240 0.00415729
+2245 0.00450466
+2250 0.00486931
+2255 0.00525167
+2260 0.00565223
+2265 0.00607147
+2270 0.00650993
+2275 0.00697923
+2280 0.00746971
+2285 0.00798193
+2290 0.00851651
+2295 0.00907408
+2300 0.0096553
+&
+@target G0.S24
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 1.99116e-09
+1695 1.30627e-07
+1700 9.20733e-07
+1705 3.41103e-06
+1710 8.98113e-06
+1715 1.94488e-05
+1720 3.70733e-05
+1725 6.45609e-05
+1730 0.00010505
+1735 0.000162527
+1740 0.000240556
+1745 0.000343187
+1750 0.000474506
+1755 0.000638463
+1760 0.000838662
+1765 0.00107887
+1770 0.00136083
+1775 0.00168592
+1780 0.00205448
+1785 0.00246575
+1790 0.00291788
+1795 0.0034094
+1800 0.00393559
+1805 0.00449214
+1810 0.00507427
+1815 0.00567696
+1820 0.00629513
+1825 0.00692659
+1830 0.00756447
+1835 0.00820453
+1840 0.00884294
+1845 0.00947635
+1850 0.0101019
+1855 0.0107213
+1860 0.0113291
+1865 0.0119235
+1870 0.0125034
+1875 0.0130679
+1880 0.0136164
+1885 0.0141533
+1890 0.0146738
+1895 0.0151779
+1900 0.0156655
+1905 0.0161368
+1910 0.0165919
+1915 0.0170362
+1920 0.017465
+1925 0.0178786
+1930 0.0182774
+1935 0.0186616
+1940 0.0190316
+1945 0.0193925
+1950 0.0197398
+1955 0.020074
+1960 0.0203952
+1965 0.0207038
+1970 0.0210001
+1975 0.0212883
+1980 0.0215648
+1985 0.0218297
+1990 0.0220832
+1995 0.0223254
+2000 0.0225567
+2005 0.0227808
+2010 0.0229942
+2015 0.0231972
+2020 0.0233899
+2025 0.0235724
+2030 0.0237449
+2035 0.0239107
+2040 0.0240666
+2045 0.024213
+2050 0.0243498
+2055 0.0244773
+2060 0.0245955
+2065 0.0247073
+2070 0.02481
+2075 0.0249038
+2080 0.0249886
+2085 0.0250648
+2090 0.0251322
+2095 0.0251938
+2100 0.025247
+2105 0.0252916
+2110 0.025328
+2115 0.0253562
+2120 0.0253762
+2125 0.0253912
+2130 0.0253982
+2135 0.0253973
+2140 0.0253886
+2145 0.0253722
+2150 0.0253482
+2155 0.0253202
+2160 0.0252847
+2165 0.0252418
+2170 0.0251917
+2175 0.0251344
+2180 0.0250701
+2185 0.0250029
+2190 0.0249288
+2195 0.0248478
+2200 0.0247601
+2205 0.0246658
+2210 0.0245649
+2215 0.0244626
+2220 0.0243539
+2225 0.0242389
+2230 0.0241178
+2235 0.0239905
+2240 0.0238573
+2245 0.0237243
+2250 0.0235854
+2255 0.0234409
+2260 0.0232908
+2265 0.0231351
+2270 0.0229741
+2275 0.0228144
+2280 0.0226495
+2285 0.0224794
+2290 0.0223043
+2295 0.0221243
+2300 0.0219394
+&
+@target G0.S25
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 1.23446e-09
+1695 6.4201e-08
+1700 4.40591e-07
+1705 1.57904e-06
+1710 4.0866e-06
+1715 8.75691e-06
+1720 1.6586e-05
+1725 2.8796e-05
+1730 4.68623e-05
+1735 7.20663e-05
+1740 0.000106691
+1745 0.000153089
+1750 0.00021399
+1755 0.000292534
+1760 0.000392307
+1765 0.000515206
+1770 0.000667187
+1775 0.000853183
+1780 0.00107863
+1785 0.00134943
+1790 0.00167193
+1795 0.00204764
+1800 0.00248737
+1805 0.00299798
+1810 0.00358621
+1815 0.0042584
+1820 0.00502019
+1825 0.00586743
+1830 0.00681064
+1835 0.00785122
+1840 0.00898847
+1845 0.0102193
+1850 0.0115379
+1855 0.0129262
+1860 0.0143827
+1865 0.0158947
+1870 0.0174473
+1875 0.0190244
+1880 0.0206093
+1885 0.0221797
+1890 0.0237264
+1895 0.0252349
+1900 0.0266922
+1905 0.0280875
+1910 0.0294123
+1915 0.0306626
+1920 0.0318337
+1925 0.0329234
+1930 0.0339314
+1935 0.0348588
+1940 0.0357081
+1945 0.0364915
+1950 0.0372051
+1955 0.0378532
+1960 0.0384403
+1965 0.0389713
+1970 0.0394508
+1975 0.0398958
+1980 0.0402987
+1985 0.0406634
+1990 0.0409938
+1995 0.0412934
+2000 0.0415657
+2005 0.0418271
+2010 0.0420669
+2015 0.0422874
+2020 0.042491
+2025 0.0426796
+2030 0.0428551
+2035 0.0430326
+2040 0.0431998
+2045 0.0433583
+2050 0.043509
+2055 0.0436533
+2060 0.043792
+2065 0.0439383
+2070 0.0440803
+2075 0.0442189
+2080 0.0443546
+2085 0.0444882
+2090 0.04462
+2095 0.0447614
+2100 0.0449017
+2105 0.0450413
+2110 0.0451807
+2115 0.0453201
+2120 0.04546
+2125 0.0456096
+2130 0.0457599
+2135 0.045911
+2140 0.0460634
+2145 0.0462172
+2150 0.0463728
+2155 0.0465374
+2160 0.0467038
+2165 0.0468721
+2170 0.0470427
+2175 0.0472156
+2180 0.0473912
+2185 0.0475748
+2190 0.0477611
+2195 0.0479501
+2200 0.0481421
+2205 0.0483372
+2210 0.0485356
+2215 0.0487411
+2220 0.0489499
+2225 0.0491621
+2230 0.0493779
+2235 0.0495975
+2240 0.0498211
+2245 0.0500507
+2250 0.0502841
+2255 0.0505217
+2260 0.0507634
+2265 0.0510096
+2270 0.0512605
+2275 0.0515161
+2280 0.0517763
+2285 0.0520412
+2290 0.0523109
+2295 0.0525856
+2300 0.0528656
+&
+@target G0.S26
+@type xy
+1610 0
+1615 0
+1620 0
+1625 0
+1630 0
+1635 0
+1640 0
+1645 0
+1650 0
+1655 0
+1660 0
+1665 0
+1670 0
+1675 0
+1680 0
+1685 0
+1690 0.0293863
+1695 0.059386
+1700 0.0854395
+1705 0.0986681
+1710 0.111726
+1715 0.123771
+1720 0.134659
+1725 0.144873
+1730 0.15477
+1735 0.165991
+1740 0.177005
+1745 0.187221
+1750 0.196377
+1755 0.204502
+1760 0.211791
+1765 0.221722
+1770 0.231385
+1775 0.240867
+1780 0.250211
+1785 0.25942
+1790 0.268477
+1795 0.278985
+1800 0.289351
+1805 0.299505
+1810 0.309392
+1815 0.318969
+1820 0.328203
+1825 0.338507
+1830 0.348458
+1835 0.358014
+1840 0.367131
+1845 0.375764
+1850 0.383867
+1855 0.392119
+1860 0.399773
+1865 0.40678
+1870 0.4131
+1875 0.418706
+1880 0.423586
+1885 0.427855
+1890 0.431442
+1895 0.434382
+1900 0.436724
+1905 0.438527
+1910 0.439858
+1915 0.440421
+1920 0.440658
+1925 0.440636
+1930 0.440418
+1935 0.440062
+1940 0.439621
+1945 0.438383
+1950 0.437157
+1955 0.435979
+1960 0.434875
+1965 0.433868
+1970 0.432975
+1975 0.431162
+1980 0.429504
+1985 0.428004
+1990 0.426665
+1995 0.425486
+2000 0.424463
+2005 0.422384
+2010 0.420479
+2015 0.418738
+2020 0.417155
+2025 0.415719
+2030 0.414422
+2035 0.412004
+2040 0.409738
+2045 0.407616
+2050 0.405625
+2055 0.403756
+2060 0.401999
+2065 0.399163
+2070 0.396458
+2075 0.393875
+2080 0.391402
+2085 0.389031
+2090 0.386753
+2095 0.383518
+2100 0.380398
+2105 0.377384
+2110 0.374468
+2115 0.371641
+2120 0.368895
+2125 0.365345
+2130 0.361901
+2135 0.358553
+2140 0.355293
+2145 0.352115
+2150 0.349011
+2155 0.345242
+2160 0.34157
+2165 0.337987
+2170 0.334486
+2175 0.331059
+2180 0.327699
+2185 0.323761
+2190 0.319912
+2195 0.316144
+2200 0.31245
+2205 0.308824
+2210 0.305259
+2215 0.301073
+2220 0.296968
+2225 0.292937
+2230 0.288975
+2235 0.285076
+2240 0.281236
+2245 0.276571
+2250 0.271991
+2255 0.267491
+2260 0.263069
+2265 0.258723
+2270 0.254454
+2275 0.247573
+2280 0.240934
+2285 0.234562
+2290 0.228491
+2295 0.222761
+2300 0.21742
+&

@@ -1,0 +1,18 @@
+BELL 83 NP B222, 389 
+SPIN ROTATION ANGLE MEASUREMENTS 
+PI- P --&gt; K0 LAMBDA 
+PLAB IN GEV 2.240 => 2261.87 MeV c.m. 
+x = COS(THETA) y = "BETA" IN DEGREES 
+x1 TO x2 y +- dy 
+-0.2 -0.1 - 
+-0.1 0.0 - 
+0.0 0.1 -72. 37. 
+0.1 0.2 76. 40. 
+0.2 0.3 -168. 92. 
+0.3 0.4 32. 32. 
+0.4 0.5 71. 52. 
+0.5 0.6 30. 44. 
+0.6 0.7 30. 96. 
+0.7 0.8 1. 29. 
+0.8 0.9 - 
+0.9 1.0 -143. 123.  
